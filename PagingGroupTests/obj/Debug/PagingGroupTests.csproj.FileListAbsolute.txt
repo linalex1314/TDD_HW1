@@ -1,0 +1,10 @@
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\bin\Debug\PagingGroupTests.dll
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\bin\Debug\PagingGroupTests.pdb
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\bin\Debug\ExpectedObjects.dll
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\bin\Debug\PagingGroup.exe
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\bin\Debug\PagingGroup.pdb
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\obj\Debug\PagingGroupTests.csprojResolveAssemblyReference.cache
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\obj\Debug\PagingGroupTests.dll
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroupTests\obj\Debug\PagingGroupTests.pdb
