@@ -13,7 +13,7 @@ namespace PagingGroup
             Calculator calculator = new Calculator();
 
             List<Product> products = new ProductRepository().products;
-            List<int> result = calculator.CalculatorPagingGroup<Product>(products, 3, "Cost");
+            IEnumerable<int> result = calculator.CalculatorPagingGroup<Product>(products, 3, x => x.Cost);
 
             Console.WriteLine("Product Group");
             foreach (int item in result)
@@ -23,7 +23,7 @@ namespace PagingGroup
 
             Console.WriteLine("=============");
             List<Order> orders = new OrderRepository().orders;
-            result = calculator.CalculatorPagingGroup<Order>(orders, 4, "Revenue");
+            result = calculator.CalculatorPagingGroup<Order>(orders, 4, x => x.Revenue);
 
             Console.WriteLine("Order Group");
             foreach (int item in result)

@@ -15,6 +15,6 @@ D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\bin\Debug\FluentAssertions.pdb
 D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\bin\Debug\FluentAssertions.xml
 D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\bin\Debug\FluentAssertions.Core.pdb
 D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\bin\Debug\FluentAssertions.Core.xml
-D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\obj\Debug\PagingGroup.csprojResolveAssemblyReference.cache
 D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\obj\Debug\PagingGroup.exe
 D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\obj\Debug\PagingGroup.pdb
+D:\ALEX\練習\TDD\HW\TDD_HW1\PagingGroup\obj\Debug\PagingGroup.csprojResolveAssemblyReference.cache

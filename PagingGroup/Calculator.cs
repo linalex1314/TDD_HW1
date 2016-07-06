@@ -15,31 +15,15 @@ namespace PagingGroup
         /// <param name="groupCount">決定幾筆一組</param>
         /// <param name="groupName">決定要計算的欄位</param>
         /// <returns></returns>
-        public List<int> CalculatorPagingGroup<T>(List<T> source, int groupCount, string groupName)
+        public IEnumerable<int> CalculatorPagingGroup<T>(List<T> source, int groupCount, Func<T, int> selector)
         {
-            List<int> result = new List<int>();
-
-            int sum = 0;
-            int count = 0;
-
-            foreach (var item in source)
+            int index = 0;
+            while (index <= source.Count)
             {
-                count++;
-                sum += (int)GetPropValue(item, groupName);
-
-                if ((count % groupCount == 0) || count == source.Count)
-                {
-                    result.Add(sum);
-                    sum = 0;
-                }
+                yield return source.Skip(index).Take(groupCount).Sum(selector);
+                index += groupCount;
             }
-
-            return result;
         }
 
-        public static object GetPropValue(object src, string propName)
-        {
-            return src.GetType().GetProperty(propName).GetValue(src, null);
-        }
     }
 }
